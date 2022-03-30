@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <main>
+
+    <header>
+      <h1>Learn to code by watching others</h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.</p>
+    </header>
+
+    <section>
+
+      <p class="try-it"><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+      <form>
+
+        <fieldset>
+          <input class="field" type="text" name="first-name" value="" placeholder="First Name">
+          <img class="error-icon" src="images/icon-error.svg" alt="error-icon">
+          <small class="empty-error">First Name cannot be empty</small>
+        </fieldset>
+
+        <fieldset>
+          <input class="field" type="text" name="last-name" value="" placeholder="Last Name">
+          <img class="error-icon" src="images/icon-error.svg" alt="error-icon">
+          <small class="empty-error">Last Name cannot be empty</small>
+        </fieldset>
+
+        <fieldset>
+          <input id="email" class="field" type="email" name="email" value="" placeholder="Email Address">
+          <img class="error-icon" src="images/icon-error.svg" alt="error-icon">
+          <small class="empty-error">Looks like this is not an email</small>
+        </fieldset>
+
+        <fieldset>
+          <input class="field" type="password" name="password" value="" placeholder="Password">
+          <img class="error-icon" src="images/icon-error.svg" alt="error-icon">
+          <small class="empty-error">Password cannot be empty</small>
+        </fieldset>
+
+        <fieldset>
+          <input class="submit" type="button" name="submit" value="CLAIM YOUR FREE TRIAL">
+          <p class="agreement">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+        </fieldset>
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/chanelmarshall">Chanel Marshall</a>.
+    </p>
+  </footer>
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
