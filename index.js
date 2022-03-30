@@ -25,7 +25,6 @@ function checkEmail() {
   var email = document.querySelector("#email");
   var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   if (email.value.match(mailformat)) {
-    console.log("Valid email");
 
   } else {
     email.setAttribute("value", "email@example.com");
